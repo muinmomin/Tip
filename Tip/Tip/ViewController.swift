@@ -125,7 +125,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             //get the rough number of seconds since calculator disappeared
             let elapsedTime = Int(NSDate().timeIntervalSinceDate(disappearDate as! NSDate))
-            let deleteAfter = 5   //5 minutes
+            let deleteAfter = 600   //10 minutes
             
             if elapsedTime < deleteAfter {
                 billField.text = "\(NSUserDefaults.standardUserDefaults().doubleForKey("bill_amount"))"
