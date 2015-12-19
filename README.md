@@ -50,7 +50,7 @@ Settings screen to change the default tip value.
 
 
 
-When there is no input for bill amount, tapping outside will not dismiss the keyboard. But when the user enters in input and THEN taps outside, the keyboard will be dismissed. This way, the user cannot will not get confused when they see blank input without a keyboard.  
+When there is no input for bill amount, tapping outside will not dismiss the keyboard. But when the user enters in input and THEN taps outside, the keyboard will be dismissed. This way, the user will not get confused when they see blank input without a keyboard.  
 <img src='tapGesture.gif' title='Dismiss Keyboard' width='' alt='Dismiss Keyboard' />
 
 
