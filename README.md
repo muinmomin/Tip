@@ -22,6 +22,7 @@ The following **additional** features are implemented:
 
 - [x] Added slider for finer tip control instead of only choosing from 3 values.
 - [x] Cash total feature. If user is paying in cash, they won't be able to pay 27.56, instead they'll just pay 28.00. My application also displays this cash value.
+- [x] Dismissing keyboard (more info in gif below)
 - [x] Added icon and loading screen backsplash
 - [x] Made UI better by using colors and moving elements around
 
@@ -29,7 +30,29 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+This is the main overiview of the application. More specific gifs below.  
 <img src='overview.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+I used a slider instead of segmentedcontroller because slider provides more control. Also, the default slider was hard to control, so I used [OBSlider](https://github.com/ole/OBSlider) instead. This allows the user to get even more precise control over the slider by simply dragging their finger down (as show in gif).  
+<img src='slider.gif' title='Slider Demo' width='' alt='Slider Demo' />
+
+
+
+This is the starting of the app. Keyboard automatically shows up so the user can just start typing.  
+<img src='startup.gif' title='Start' width='' alt='Starting Screen' />
+
+
+
+Settings screen to change the default tip value.  
+<img src='settings.gif' title='Settings' width='' alt='Settings Screen' />
+
+
+
+When there is no input for bill amount, tapping outside will not dismiss the keyboard. But when the user enters in input and THEN taps outside, the keyboard will be dismissed. This way, the user cannot will not get confused when they see blank input without a keyboard.  
+<img src='tapGesture.gif' title='Dismiss Keyboard' width='' alt='Dismiss Keyboard' />
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
