@@ -58,11 +58,20 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:  
+
+ - I didn't really like the slider that comes with UIKit, so I had to look for something else and use that instead.  
+ - Hadn't really done much Swift/iOS programming before this, so I had to do a lot of research for keeping data persistent and plugging into different life cycles of the app.
+
+
+Credits:
+
+ - App logo: http://www.flaticon.com/free-icon/more-percentage-plus-button_60867#term=plus-money&page=1&position=3
+ - Settings logo: http://www.flaticon.com/free-icon/settings-cog_17214
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2015 Muin Momin
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
