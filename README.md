@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Added slider for finer tip control instead of only choosing from 3 values.
-- [x] Cash total feature. If user is paying in cash, they won't be able to pay 27.56, instead they'll just pay 28.00. My application also displays this cash value.
+- [x] Cash total feature. If user is paying in cash, they won't be able to pay 27.56, instead they'll just pay 28.00. My application also displays this cash value. Also, for some values like 59, it's easier to just pay 60.
 - [x] Dismissing keyboard (more info in gif below)
 - [x] Added icon and loading screen backsplash
 - [x] Made UI better by using colors and moving elements around
